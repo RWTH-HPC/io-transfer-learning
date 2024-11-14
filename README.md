@@ -51,6 +51,14 @@ Directory structure:
 |   |   +-- paper_visualization.ipynb
 ```
 
+## General instruction 
+
+- All Darshan logs are not stored in this repository. To reproduce this work, users need to download the Blue Waters Darshan logs and also generate their own Darshan logs for the target cluster
+- The scripts are divided into building the model using Blue Waters dataset and target cluster (CLAIX) dataset. Cross validation scripts are also available for the base model and the transfer learning model
+- The directories' addresses needs to be adjusted to the users' own directories 
+
+## Reproducing the work
+
 The detailed work can be read in this Master's thesis: 
 
 D. Povaliaiev, “Transfer learning workflow for I/O bandwidth prediction,” M.S. thesis, RWTH Aachen University, Aachen, 2023. https://publications.rwth-aachen.de/record/958007.
